@@ -20,3 +20,4 @@ ESP32 D4  <-> DIO TM1637
 ESP32 3v3 <-> VIN DS3231
 ESP32 GND <-> GND DS3231
 
+![a cool clock](/clocky.jpg?raw=true "Clock Display")
