@@ -9,7 +9,7 @@ wifi is disconnected when not in use.
 use a LIR2032 battery in the DS3231 (can use a CR2032 if you desolder the charging diode)
 
 wiring:
-
+```
 ESP32 SCL <-> SCL DS3231
 ESP32 SDA <-> SDA DS3231
 ESP32 3v3 <-> VIN DS3231
@@ -19,5 +19,5 @@ ESP32 D15 <-> CLK TM1637
 ESP32 D4  <-> DIO TM1637
 ESP32 3v3 <-> VIN DS3231
 ESP32 GND <-> GND DS3231
-
+```
 ![a cool clock](/clocky.jpg?raw=true "Clock Display")
